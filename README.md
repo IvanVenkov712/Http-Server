@@ -17,7 +17,7 @@ Before using Http Server, you must ensure that the latest supported version of [
 
 Follow these steps to start Http Server for the first time.
 
-1. Download from the [latest release](/releases) `Http_Server_x32.exe` or `Http_Server_x64.exe` depending on your architecture.
+1. Download from the [latest release](https://github.com/IvanVenkov712/Http-Server/releases) `Http_Server_x32.exe` or `Http_Server_x64.exe` depending on your architecture.
 2. After that, create a folder named `PageDir` in the same path as the executable.
 3. In `PageDir` create a file and name it `index.html`.
 4. Paste the following HTML code into `index.html`:
