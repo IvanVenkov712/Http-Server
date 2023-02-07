@@ -1,0 +1,10 @@
+$(document).ready(function() {
+
+
+$('body').on('click', '#closefloatingbox', function(e){
+    $("#floatingbox").remove();
+  });
+
+
+   
+});

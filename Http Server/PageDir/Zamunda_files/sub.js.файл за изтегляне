@@ -1,0 +1,1 @@
+function lockFormSubmit(lock){if(document.all||document.getElementById){for(i=0;i<lock.length;i++){var tempobj=lock.elements[i];if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset"||tempobj.type.toLowerCase()=="button"){tempobj.disabled=true;}}}}
