@@ -49,9 +49,7 @@ You can learn how to configure the server [here](docs/user/configuration.md)
 
 ## Documentation
 
-User documentation is available [here](docs/user).
-
-Source documentation is available [here](docs/source).
+The documentation is available [here](docs).
 
 ## Contacts
 You can contact me on email <ivan.venkov.developer@gmail.com>.
