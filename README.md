@@ -17,9 +17,10 @@ Before using Http Server, you must ensure that the latest supported version of [
 
 Follow these steps to start Http Server for the first time.
 
-1. After you download and unzip the latest release, create a folder named `PageDir` in the same path as the executable.
-2. In `PageDir` create a file and name it `index.html`.
-3. Paste the following HTML code into `index.html`:
+1. Download from the [latest release]() `Http_Server_x32.exe` or `Http_Server_x64.exe` depending on your architecture.
+2. After that, create a folder named `PageDir` in the same path as the executable.
+3. In `PageDir` create a file and name it `index.html`.
+4. Paste the following HTML code into `index.html`:
 
         <html>
             <head>
@@ -30,7 +31,7 @@ Follow these steps to start Http Server for the first time.
             </body>
         </html>
 
-4. Now run the Command prompt as administrator and type the following command: `"Http Server.exe" noconf`. This way you will start the server without configuration file. 
+5. Now run the Command prompt as administrator, change the directory to that of the executable and type the following command: `"Http_Server_x32.exe" noconf` or respectively `"Http_Server_x64.exe" noconf`. This way you will start the server without configuration file. 
 All properties are set to the [defaults](docs/user/configuration.md#default-property-values). 
 An output like this:
 
@@ -40,8 +41,8 @@ An output like this:
         Info: Max request threads: unlimited
 
     indicates that the program has been started successfully.
-5. Visit http://localhost:80 and you will see the `index` page on your browser.
-6. To exit, you move the focus on the console and press <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+6. Visit http://localhost:80 and you will see the `index` page on your browser.
+7. To exit, you move the focus on the console and press <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
 This short tutorial shows how easy is to use Http Server. This program will serve great on your hosting and testing purposes. After you learn how to use it, you will have the basics to learn using much more complicated web software.
 You can learn how to configure the server [here](docs/user/configuration.md)
